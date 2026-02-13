@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_apis",
+  "info": {
+    "singularName": "mobile-api",
+    "pluralName": "mobile-apis",
+    "displayName": "MobileAPI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "root": {
+      "type": "json",
+      "required": true
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}
